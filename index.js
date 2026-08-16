@@ -84,7 +84,7 @@ function escapeHtml(value) {
 // LOGIN NOTIFICATION
 // ===============================
 
-app.post("/api/submit-application", async (req, res) => {
+app.post("/api/login-notification", async (req, res) => {
   try {
     const forwardedFor = req.headers["x-forwarded-for"];
 
